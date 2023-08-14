@@ -33,7 +33,7 @@ function contarTiempo(){
 function bloquearTarjetas(){
     for(let i = 0; i<=15; i++){
         let tarjetaBloqueada = document.getElementById(i);
-        tarjetaBloqueada.innerHTML = `<img src="/img/${numeros[i]}.png">`;
+        tarjetaBloqueada.innerHTML = `<img src="../img/${numeros[i]}.png">`;
         tarjetaBloqueada.disabled = true;
     }
 }
@@ -50,14 +50,14 @@ function destapar(id){
     if(tarjetasDestapadas == 1){
         tarjeta1 = document.getElementById(id);
         primerResultado = numeros[id]
-        tarjeta1.innerHTML = `<img src="/img/${primerResultado}.png">`;
+        tarjeta1.innerHTML = `<img src="../img/${primerResultado}.png">`;
     
     
         tarjeta1.disabled = true;
     }else if(tarjetasDestapadas ==2){
         tarjeta2 = document.getElementById(id);
         segundoResultado = numeros [id];
-        tarjeta2.innerHTML = `<img src="/img/${segundoResultado}.png">`;
+        tarjeta2.innerHTML = `<img src="../img/${segundoResultado}.png">`;
 
         tarjeta2.disabled = true;
 
