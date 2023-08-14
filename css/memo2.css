@@ -55,3 +55,12 @@ button:hover{
 img{
     width: 80%;
 }
+
+.boton{
+    background-color: #FE7BE5;
+    border: 10px;
+    margin: 50px;
+    padding: 30px;
+    font-size: 40px;
+    width: 300px;
+}
